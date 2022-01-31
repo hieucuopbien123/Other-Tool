@@ -1,0 +1,8 @@
+Docker Machine tạo ra máy ảo và trên máy ảo lại có docker => tạo ra nhiều hệ thống docker khác nhau trên máy ảo độc lập. Sau kết nối với Docker Swarm thì chúng sẽ kết nối với nhau tạo 1 dịch vụ hoàn chỉnh. Ở phiên bản mới phải tự cài thêm docker-machine: https://github.com/docker/machine/releases -> paste phần window vào git bash -> dùng gitbash luôn k dùng powershell nx. 
+Để paste từ window vào gitbash ta kéo rê
+
+docker-machine ls
+docker-machine create -drive virtualbox vps1 -> tạo máy ảo bằng virtualbox, trên window thay virtualbox bằng hyperv. cuối là tên máy ảo => bản chất cũng chỉ là máy ảo tạo ra từ công cụ khác. Nếu dùng hyperv window thì phải chạy quyền admin
+
+
+
